@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10PX;
+}
+
+.input-section label {
+    font-weight:bold;
+    margin-right:10px;
+}
+
+.input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input-section button{
+    padding: 5px,10px;
+    background-color: green;
+    color:whitesmoke;
+    border:none;
+    cursor:pointer;
+    
+}
+
+expense-list {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th ,td {
+    border : 1px solid green;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+}
+
+th ,td {
+    background-color: aquamarine;
+    color: red;
+}
+
+tfoot td {
+    padding: 5px 10px;
+    background-color:whitesmoke;
+
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+ 
+}
+
+
+
